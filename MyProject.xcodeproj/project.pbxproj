@@ -6,25 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9C6BC3212DC479500015C9BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC3172DC479500015C9BA /* AppDelegate.swift */; };
-		9C6BC3222DC479500015C9BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC31E2DC479500015C9BA /* SceneDelegate.swift */; };
-		9C6BC3232DC479500015C9BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC31F2DC479500015C9BA /* ViewController.swift */; };
-		9C6BC3242DC479500015C9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC3182DC479500015C9BA /* Assets.xcassets */; };
-		9C6BC3262DC479500015C9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC31B2DC479500015C9BA /* LaunchScreen.storyboard */; };
-		9C6BC3272DC479500015C9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6BC31D2DC479500015C9BA /* Main.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		9C4967E22DC3CA9B007DE300 /* TempXcode16Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempXcode16Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C6BC3172DC479500015C9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C6BC3182DC479500015C9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C6BC3192DC479500015C9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C6BC31A2DC479500015C9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9C6BC31C2DC479500015C9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C6BC31E2DC479500015C9BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C6BC31F2DC479500015C9BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9C5C18DF2F17DBA70054081A /* Exceptions for "MyProject" folder in "TempXcode16Proj" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9C4967E12DC3CA9B007DE300 /* TempXcode16Proj */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9C5C18D72F17DBA70054081A /* MyProject */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9C5C18DF2F17DBA70054081A /* Exceptions for "MyProject" folder in "TempXcode16Proj" target */,
+			);
+			path = MyProject;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C4967DF2DC3CA9B007DE300 /* Frameworks */ = {
@@ -40,7 +45,7 @@
 		9C4967D92DC3CA9B007DE300 = {
 			isa = PBXGroup;
 			children = (
-				9C6BC3202DC479500015C9BA /* TempXcode16Proj */,
+				9C5C18D72F17DBA70054081A /* MyProject */,
 				9C4967E32DC3CA9B007DE300 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,20 +56,6 @@
 				9C4967E22DC3CA9B007DE300 /* TempXcode16Proj.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9C6BC3202DC479500015C9BA /* TempXcode16Proj */ = {
-			isa = PBXGroup;
-			children = (
-				9C6BC3172DC479500015C9BA /* AppDelegate.swift */,
-				9C6BC3182DC479500015C9BA /* Assets.xcassets */,
-				9C6BC3192DC479500015C9BA /* Info.plist */,
-				9C6BC31B2DC479500015C9BA /* LaunchScreen.storyboard */,
-				9C6BC31D2DC479500015C9BA /* Main.storyboard */,
-				9C6BC31E2DC479500015C9BA /* SceneDelegate.swift */,
-				9C6BC31F2DC479500015C9BA /* ViewController.swift */,
-			);
-			path = TempXcode16Proj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +72,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9C5C18D72F17DBA70054081A /* MyProject */,
 			);
 			name = TempXcode16Proj;
 			packageProductDependencies = (
@@ -104,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C4967DD2DC3CA9B007DE300 /* Build configuration list for PBXProject "TempXcode16Proj" */;
+			buildConfigurationList = 9C4967DD2DC3CA9B007DE300 /* Build configuration list for PBXProject "MyProject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -128,9 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6BC3242DC479500015C9BA /* Assets.xcassets in Resources */,
-				9C6BC3262DC479500015C9BA /* LaunchScreen.storyboard in Resources */,
-				9C6BC3272DC479500015C9BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,32 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6BC3212DC479500015C9BA /* AppDelegate.swift in Sources */,
-				9C6BC3222DC479500015C9BA /* SceneDelegate.swift in Sources */,
-				9C6BC3232DC479500015C9BA /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C6BC31B2DC479500015C9BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C6BC31A2DC479500015C9BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9C6BC31D2DC479500015C9BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C6BC31C2DC479500015C9BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9C4967F62DC3CA9C007DE300 /* Debug */ = {
@@ -357,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C4967DD2DC3CA9B007DE300 /* Build configuration list for PBXProject "TempXcode16Proj" */ = {
+		9C4967DD2DC3CA9B007DE300 /* Build configuration list for PBXProject "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C4967F82DC3CA9C007DE300 /* Debug */,
