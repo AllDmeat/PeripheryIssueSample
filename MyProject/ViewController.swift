@@ -19,5 +19,8 @@ class ViewController: UIViewController {
         label.text = "Button tapped at \(Date().formatted(date: .omitted, time: .complete))"
     }
     
+    @IBAction func segmentValueChanged(_ sender: Any) {
+        print("This functions is actually used")
+    }
 }
 
