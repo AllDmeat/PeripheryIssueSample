@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TempXcode16Proj
+//  MyProject
 //
 //  Created by Aleksey Berezka on 01.05.2025.
 //
