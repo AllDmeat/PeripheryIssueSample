@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		9C4967DF2DC3CA9B007DE300 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -71,14 +69,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				9C5C18D72F17DBA70054081A /* MyProject */,
 			);
 			name = TempXcode16Proj;
-			packageProductDependencies = (
-			);
 			productName = TempXcode16Proj;
 			productReference = 9C4967E22DC3CA9B007DE300 /* TempXcode16Proj.app */;
 			productType = "com.apple.product-type.application";
@@ -107,7 +101,7 @@
 			);
 			mainGroup = 9C4967D92DC3CA9B007DE300;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 9C4967E32DC3CA9B007DE300 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,25 +114,21 @@
 /* Begin PBXResourcesBuildPhase section */
 		9C4967E02DC3CA9B007DE300 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C4967DE2DC3CA9B007DE300 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9C4967F62DC3CA9C007DE300 /* Debug */ = {
+		9C4967F62DC3CA9C007DE300 /* Debug configuration for PBXNativeTarget "TempXcode16Proj" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -170,7 +160,7 @@
 			};
 			name = Debug;
 		};
-		9C4967F72DC3CA9C007DE300 /* Release */ = {
+		9C4967F72DC3CA9C007DE300 /* Release configuration for PBXNativeTarget "TempXcode16Proj" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -202,7 +192,7 @@
 			};
 			name = Release;
 		};
-		9C4967F82DC3CA9C007DE300 /* Debug */ = {
+		9C4967F82DC3CA9C007DE300 /* Debug configuration for PBXProject "MyProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		9C4967F92DC3CA9C007DE300 /* Release */ = {
+		9C4967F92DC3CA9C007DE300 /* Release configuration for PBXProject "MyProject" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,19 +319,17 @@
 		9C4967DD2DC3CA9B007DE300 /* Build configuration list for PBXProject "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C4967F82DC3CA9C007DE300 /* Debug */,
-				9C4967F92DC3CA9C007DE300 /* Release */,
+				9C4967F82DC3CA9C007DE300 /* Debug configuration for PBXProject "MyProject" */,
+				9C4967F92DC3CA9C007DE300 /* Release configuration for PBXProject "MyProject" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		9C4967F52DC3CA9C007DE300 /* Build configuration list for PBXNativeTarget "TempXcode16Proj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C4967F62DC3CA9C007DE300 /* Debug */,
-				9C4967F72DC3CA9C007DE300 /* Release */,
+				9C4967F62DC3CA9C007DE300 /* Debug configuration for PBXNativeTarget "TempXcode16Proj" */,
+				9C4967F72DC3CA9C007DE300 /* Release configuration for PBXNativeTarget "TempXcode16Proj" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
