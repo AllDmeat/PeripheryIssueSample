@@ -8,18 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func buttonTapped(_ sender: Any) {
-        label.text = "Button tapped at \(Date().formatted(date: .omitted, time: .complete))"
+    @IBAction func sizeTapped(_ sender: Any) {
+        print("This functions is actually used")
     }
     
-    @IBAction func segmentValueChanged(_ sender: Any) {
+    @IBAction func sizeChanged(_ sender: Any) {
+        print("This functions is actually used")
+    }
+    
+    @IBAction func colorTapped(sender: Any) {
+        print("This functions is actually used")
+    }
+    
+    @IBAction func colorChanged(sender: Any) {
+        print("This functions is actually used")
+    }
+    
+    @IBAction func confirmTapped() {
         print("This functions is actually used")
     }
 }
