@@ -6,6 +6,10 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C2F22CC2F3F0609007311B9 /* SampleDS in Frameworks */ = {isa = PBXBuildFile; productRef = 9C2F22CB2F3F0609007311B9 /* SampleDS */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9C4967E22DC3CA9B007DE300 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -15,6 +19,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				SampleDS,
 			);
 			target = 9C4967E12DC3CA9B007DE300 /* MyProject */;
 		};
@@ -35,15 +40,24 @@
 		9C4967DF2DC3CA9B007DE300 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				9C2F22CC2F3F0609007311B9 /* SampleDS in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C2F22CA2F3F0609007311B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C4967D92DC3CA9B007DE300 = {
 			isa = PBXGroup;
 			children = (
 				9C5C18D72F17DBA70054081A /* MyProject */,
+				9C2F22CA2F3F0609007311B9 /* Frameworks */,
 				9C4967E32DC3CA9B007DE300 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +87,9 @@
 				9C5C18D72F17DBA70054081A /* MyProject */,
 			);
 			name = MyProject;
+			packageProductDependencies = (
+				9C2F22CB2F3F0609007311B9 /* SampleDS */,
+			);
 			productName = MyProject;
 			productReference = 9C4967E22DC3CA9B007DE300 /* MyProject.app */;
 			productType = "com.apple.product-type.application";
@@ -335,6 +352,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C2F22CB2F3F0609007311B9 /* SampleDS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SampleDS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C4967DA2DC3CA9B007DE300 /* Project object */;
 }
