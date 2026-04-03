@@ -7,8 +7,15 @@
 
 import UIKit
 import SwiftUI
+import SampleDS
 
 class ViewController: UIViewController {
+
+    // Use SampleViewController via Storyboardable to make it "referenced" for Periphery
+    func showSample() {
+        let vc = SampleViewController.instantiateInitialFromStoryboard()
+        present(vc, animated: true)
+    }
     
     @IBAction func sizeTapped(_ sender: Any) {
         print("This functions is actually used")
@@ -32,6 +39,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        showSample()
         
         let hostingController = UIHostingController(rootView: ClearButtonView())
         addChild(hostingController)
